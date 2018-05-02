@@ -1,0 +1,152 @@
+{
+  "extensionName": { "message": "FoxyTab" },
+  "extensionDescription": { "message": "Sammlung von Tab-bezogene Aktionen" },
+
+
+  "duplicate": { "message": "Tab duplizieren" },
+  "closeDuplicate": { "message": "Doppelte Tabs schließen" },
+
+  "closeLeft": { "message": "Linke Tabs schließen" },
+
+  "merge": { "message": "Alle Fenster zusammenführen" },
+  "closeOtherWindows": { "message": "Andere Fenster schließen" },
+
+  "saveAsPDF": { "message": "Tab als PDF speichern" },
+  "errorSaveAsPDF": { "message": "„Speichern als PDF” steht unter Mac OS X oder Firefox vor Version 56 nicht zur Verfügung." },
+
+  "createShortcut": { "message": "Desktop-Verknüpfung erstellen" },
+
+  "copy": { "message": "Kopieren" },
+  "copyTitle": { "message": "Tab-Titel" },
+  "copyUrl": { "message": "Tab-URL" },
+  "copyTitleUrl": { "message": "Tab-Titel & -URL" },
+  "copyIP": { "message": "Tab-IP" },
+
+  "internal": { "message": "Interne Seite von Firefox" },
+  "private": { "message": "Privates Netzwerk" },
+  "cache": { "message": "Aus Cache geladen" },
+  "unknown": { "message": "Unbekannt" },
+
+
+  "copyUrlAll": { "message": "URLs (alle)" },
+  "copyUrlLeft": { "message": "URLs der linken Seite" },
+  "copyUrlRight": { "message": "URLs der rechten Seite" },
+
+  "copyTitleUrlAll": { "message": "Titel & URLs (alle)" },
+  "copyTitleUrlLeft": { "message": "Titel & URLs der linken Seite" },
+  "copyTitleUrlRight": { "message": "Titel & URLs der rechten Seite" },
+
+  "bookmark": { "message": "Lesezeichen" },
+  "bookmarkLeft": { "message": "Linke Tabs als Lesezeichen speichern" },
+  "bookmarkRight": { "message": "Rechte Tabs als Lesezeichen speichern" },
+
+  "host": { "message": "Domain" },
+  "hostKeep": { "message": "Alle Tabs dieser Domain behalten (andere schließen)" },
+  "hostClose": { "message": "Alle Tabs dieser Domain schließen (andere behalten)" },
+  "hostCloseOther": { "message": "Andere Tabs der selben Domain schließen" },
+
+  "sort": { "message": "Sortieren" },
+  "sortURLAsce": { "message": "Nach URL - aufsteigend" },
+  "sortURLDesc": { "message": "Nach URL - absteigend" },
+  "sortTitleAsce": { "message": "Nach Titel - aufsteigend" },
+  "sortTitleDesc": { "message": "Nacht Titel - absteigend" },
+
+  "move": { "message": "Verschieben" },
+  "moveStart": { "message": "An den Anfang verschieben" },
+  "moveEnd": { "message": "An das Ende verschieben" },
+
+  "moveNewWinLeft": { "message": "Nach links in einem neuem Fenster" },
+  "moveNewWinRight": { "message": "Nach rechts in einem neuem Fenster" },
+
+  "movePrivate": { "message": "In ein Privates Fenster" },
+  "movePrivateLeft": { "message": "Nach links in ein Privates Fenster" },
+  "movePrivateRight": { "message": "Nach rechts in ein Privates Fenster" },
+
+  "reload": { "message": "Neu laden" },
+  "reloadAll": { "message": "Alle Tabs" },
+  "reloadLeft": { "message": "Tabs der linken Seite" },
+  "reloadRight": { "message": "Tabs der rechten Seite" },
+
+  "reloadTab": { "message": "Tabs neu laden aller …" },
+  "reload60": { "message": "1 min." },
+  "reload120": { "message": "2 min." },
+  "reload180": { "message": "3 min." },
+  "reload240": { "message": "4 min." },
+  "reload300": { "message": "5 min." },
+
+  "reloadStop": { "message": "Neuladen der Tabs beenden" },
+
+  "textConfirmCloseLeft": { "message": "Sie sind dabei, $1 Tabs zu schließen. Möchten Sie wirklich fortfahren?" },
+
+  "errorClipboard": { "message": "Speichern in die Zwischenablage fehlgeschlagen" },
+
+
+  "tabCounter": { "message": "Tab-Zähler" },
+  "tabCounterDescription": { "message": "Tab-Zähler aktivieren/deaktivieren" },
+  "badgeBg": { "message": "Hintergrundfarbe festlegen" },
+  "badgeBgDescription": { "message": "Hintergrundfarbe des Tab-Zählers festlegen" },
+  "contextMenu": { "message": "Kontextmenü" },
+  "contextMenuDescription": { "message": "Aktivieren oder Deaktivieren von Kontextmenüeinträgen und/oder Neuordnen der Einträge" },
+
+  "customReload": { "message": "Benutzerdefiniertes Neuladen" },
+  "customReloadDescription": { "message": "Benutzerdefinierten Wert für das Neuladen auswählen" },
+
+  "add": { "message": "Hinzufügen" },
+
+  "date": { "message": "Datum" },
+  "weekday": { "message": "Wochentag-Format" },
+  "weekdayDescription": { "message": "Sam. ⮜–⮞ Samstag" },
+
+  "month": { "message": "Monats-Format" },
+  "monthDescription": { "message": "Jan. ⮜–⮞ Januar " },
+
+  "short": { "message": "Kurz" },
+  "long": { "message": "Lang" },
+
+  "clock": { "message": "Zeit" },
+  "hour12": { "message": "12-Stunden-Zeitformat" },
+  "hour12Description": { "message": "Standard ist 24-Stunden-Zeitformat" },
+
+  "restore": { "message": "Standardwerte wiederherstellen" },
+
+
+  "theme": { "message": "Theme" },
+  "FoxyTabThemes": { "message": "FoxyTab-Themes" },
+  "savedThemes": { "message": "Gespeicherte Themes" },
+  "name": { "message": "Name" },
+  "description": { "message": "Beschreibung" },
+  "version": { "message": "Version" },
+  "homePage": { "message": "Homepage" },
+  "author": { "message": "Autor" },
+  "headerURL": { "message": "Grafik der Kopfzeile" },
+  "additionalBackgrounds": { "message": "Zusätzliche Hintergründe" },
+  "additionalBackgroundsAlignment": { "message": "Ausrichtung der zusätzlichen Hintergründe" },
+  "additionalBackgroundsTiling": { "message": "Kachelung der zusätzlichen Hintergründe" },
+  "textcolor": { "message": "Textfarbe" },
+  "accentcolor": { "message": "Akzentfarbe" },
+  "addTheme": { "message": "Hinzufügen" },
+  "updateTheme": { "message": "Aktualisieren" },
+  "deleteTheme": { "message": "Löschen" },
+  "clearTheme": { "message": "Leeren" },
+  "applyTheme": { "message": "Übernehmen" },
+  "resetTheme": { "message": "Zurücksetzen" },
+
+
+  "import": { "message": "Importieren" },
+  "export": { "message": "Exportieren" },
+  "errorSize": { "message": "Die Dateigröße ist größer als die erlaubte Größe von $1kb" },
+  "errorType": { "message": "Nicht unterstütztes Dateiformat" },
+  "errorRead": { "message": "Fehler beim Lesen der Datei" },
+  "errorParse": { "message": "Fehler beim Verarbeiten der Datei" },
+
+
+  "recount": { "message": "Zähler aktualisieren" },
+  "settings": { "message": "Einstellungen" },
+
+  
+  "about": { "message": "Über …" },
+  "error": { "message": "Fehler bei der Ausführung" },
+  "help": { "message": "Hilfe" },
+  "options": { "message": "Einstellungen" },
+  "saveOptions": { "message": "Speichern" }
+}
