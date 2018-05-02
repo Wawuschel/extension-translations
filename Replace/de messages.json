@@ -1,0 +1,21 @@
+{
+  "extensionName": { "message": "Replace" },
+  "extensionDescription": { "message": "Suchen und Ersetzen von Text auf Webseiten — Reintext oder regulärer Ausdruck" },
+
+
+  "find": { "message": "Suchen" },
+  "replace": { "message": "Ersetzen" },
+  "clear": { "message": "Leeren" },
+  "matchCase": { "message": "Groß-/Kleinschreibung beachten" },
+
+  "errorNotFound": { "message": "Suchmuster nicht gefunden" },
+  "errorPattern": { "message": "Es liegt ein Fehler mit dem Suchmuster vor" },
+
+
+  "about": { "message": "Über" },
+  "amo":  { "message": "Firefox schränkt einige Funktionen bei einige URLs ein" },
+  "error": { "message": "Es gab einen Fehler bei der Operation" },
+  "help": { "message": "Hilfe" },
+  "options": { "message": "Einstellungen" },
+  "saveOptions": { "message": "Speichern" }
+}
