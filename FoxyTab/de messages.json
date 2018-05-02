@@ -1,44 +1,44 @@
 {
   "extensionName": { "message": "FoxyTab" },
-  "extensionDescription": { "message": "Collection of Tab Related Actions" },
+  "extensionDescription": { "message": "Sammlung von Tab-bezogene Aktionen" },
 
 
-  "duplicate": { "message": "Duplicate Tab" },
-  "closeDuplicate": { "message": "Close Duplicate Tabs" },
+  "duplicate": { "message": "Tab duplizieren" },
+  "closeDuplicate": { "message": "Doppelte Tabs schließen" },
 
-  "closeLeft": { "message": "Close Tabs to the Left" },
+  "closeLeft": { "message": "Linke Tabs schließen" },
 
-  "merge": { "message": "Merge All Windows" },
-  "closeOtherWindows": { "message": "Close Other Windows" },
+  "merge": { "message": "Alle Fenster zusammenführen " },
+  "closeOtherWindows": { "message": "Andere Fenster schließen" },
 
-  "saveAsPDF": { "message": "Save Tab as PDF" },
-  "errorSaveAsPDF": { "message": "Save as PDF is not available on Mac OS X or before Firefox 56" },
+  "saveAsPDF": { "message": "Tab als PDF speichern" },
+  "errorSaveAsPDF": { "message": "„Speichern als PDF” steht unter Mac OS X oder Firefox vor Version 56 nicht zur Verfügung." },
 
-  "createShortcut": { "message": "Create Desktop Shortcut" },
+  "createShortcut": { "message": "Desktop-Verknüpfung erstellen" },
 
-  "copy": { "message": "Copy" },
-  "copyTitle": { "message": "Tab Title" },
-  "copyUrl": { "message": "Tab URL" },
-  "copyTitleUrl": { "message": "Tab Title & URL" },
-  "copyIP": { "message": "Tab IP" },
+  "copy": { "message": "Kopieren" },
+  "copyTitle": { "message": "Tab-Titel" },
+  "copyUrl": { "message": "Tab-URL" },
+  "copyTitleUrl": { "message": "Tab-Titel & -URL" },
+  "copyIP": { "message": "Tab-IP" },
 
-  "internal": { "message": "Firefox Internal Page" },
-  "private": { "message": "Private Network" },
-  "cache": { "message": "Loaded from Cache" },
-  "unknown": { "message": "Unknown" },
+  "internal": { "message": "Interne Seite von Firefox" },
+  "private": { "message": "Privates Netzwerk" },
+  "cache": { "message": "Aus Cache geladen" },
+  "unknown": { "message": "Unbekannt" },
 
 
-  "copyUrlAll": { "message": "URLs All" },
-  "copyUrlLeft": { "message": "URLs to the Left" },
-  "copyUrlRight": { "message": "URLs to the Right" },
+  "copyUrlAll": { "message": "URLs (alle)" },
+  "copyUrlLeft": { "message": "URLs der linken Seite" },
+  "copyUrlRight": { "message": "URLs der rechten Seite" },
 
-  "copyTitleUrlAll": { "message": "Titles & URLs All" },
-  "copyTitleUrlLeft": { "message": "Titles & URLs to the Left" },
-  "copyTitleUrlRight": { "message": "Titles & URLs to the Right" },
+  "copyTitleUrlAll": { "message": "Titel & URLs (alle)" },
+  "copyTitleUrlLeft": { "message": "Titel & URLs der linken Seite" },
+  "copyTitleUrlRight": { "message": "Titel & URLs der rechten Seite" },
 
-  "bookmark": { "message": "Bookmark" },
-  "bookmarkLeft": { "message": "Bookmark to the Left" },
-  "bookmarkRight": { "message": "Bookmark to the Right" },
+  "bookmark": { "message": "Lesezeichen" },
+  "bookmarkLeft": { "message": "Linke Tabs als Lesezeichen speichern" },
+  "bookmarkRight": { "message": "Rechte Tabs als Lesezeichen speichern" },
 
   "host": { "message": "Host" },
   "hostKeep": { "message": "Keep" },
