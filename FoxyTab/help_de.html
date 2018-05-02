@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="iframe.css">
+    <title>Help</title>
+  </head>
+  <body>
+    <article>
+
+  <nav>
+    <a href="#preamble">Einleitung</a>
+    <a href="#how_to">Verwendungshinweise</a>
+    <a href="#options">Einstellungen</a>
+    <a href="#theme">Theme</a>
+    <a href="#support">Unterstützung/Hilfe</a>
+  </nav>
+
+  
+  <h2 id="preamble">Einleitung</h2>
+  <p>Aktionen funktionieren von jedem Tab aus, unabhängig davon, ob aktiv oder im Hintergrund.<br>
+    Firefox schränkt einige Funktionen (z.B. kopieren/anfordern/überwachen) auf einige URLs ein. FoxyTab v2.11+ funktioniert bei allen Adressen.<br>
+    Firefox ändert sich in Vorbereitung auf FF57 und es kann zu unvorhergesehenen Problemen zwischen FF53-57 aufgrund von API-Änderungen kommen.</p> 
+  
+  
+  <h2 id="how_to">Verwendungshinweise</h2>
+ 
+  <h3>Tab-Zähler</h3>
+  <p>Symbolleistensymbol mit einer Anzeige, die die Anzahl der geöffneten Registerkarten in allen Fenstern anzeigt. Aufgrund einiger Probleme, die außerhalb der Kontrolle von <b>FoxyTab</b> liegen, kann die Zahl ungenau werden. Wenn Sie auf das Symbol in der Symbolleiste klicken, werden die Tabs neu gezählt. Um Ressourcen zu schonen, beginnt der Tab-Zähler zu zählen, sobald ein neuer Tab geöffnet oder geschlossen wird. Falls gewünscht, können Sie das Symbol der Symbolleiste mittels „Symbolleiste anpassen” verschieben.</p>
+
+  <h3>Tab duplizieren</h3>
+  <p>Dupliziert den Tab neben dem aktuellen Tab und aktiviert ihn.</p>
+  
+  <h3>Doppelte Tabs schließen</h3>
+  <p>Schließt alle doppelten Tabs, und ignoriert dabei den location.hash</p>
+
+  <h3>Linke Tabs schließen</h3>
+  <p>Ähnlich dem integrierten Befehl „Rechte Tabs schließen” • Schließt alle Tabs links vom aktuellen Tab, warnt, wenn mehr als 1 Tab geschlossen wird.<br>Neu in v2.11: <b>FoxyTab</b> schließt die „Angeheftete Tabs” nicht mehr, es sei denn die Taste <kbd>Strg</kbd> wird gedrückt.</p>
+  
+  <h3>Alle Fenster zusammenführen</h3>
+  <p>Führt alle Tabs aus allen Fenstern in das aktuelle Fenster zusammen. Um die Sicherheit zu gewährleisten, werden beim Zusammenführen zu/von einem privaten Fenster die Tabs im Zielfenster geschlossen und die gleichen URLs im aktuellen Fenster geöffnet. Beim Verschieben von Tabs zwischen privaten und normalen Fenstern werden aus Sicherheitsgründen in Firefox bestimmte URLs nicht verschoben (z.B. chrome: URLs, Javascript: URLs, Daten: URLs, Datei: URLs, bestimmte about: URLs (zum Beispiel about:config, about:addons, about:debugging). Mit anderen Worten, beim Verschieben von Tabs zwischen privaten und normalen Fenstern werden nur Tabs mit Adressen, die mit HTTP/HTTPS/FTP beginnen, verschoben.</p> 
+  
+  <h3>Andere Fenster schließen</h3>
+  <p>Schließt alle anderen geöffneten Fenster.</p>
+  
+  <h3>Tab als PDF speichern</h3>
+  <p>„Speichern als PDF” steht unter Mac OS X oder für Firefox vor Version 56 nicht zur Verfügung.<br>
+    Später können einige Benutzereinstellungen hinzugefügt werden.</p> 
+
+  <h3>Desktop-Verknüpfung erstellen</h3>
+  <p>Erstellt eine Verknüpfung für den aktuellen Tab auf dem Desktop</p> 
+
+  <h3>Tab-Titel kopieren</h3>
+  <p>Kopiert den Titel eines beliebigen Tabs, unabhängig davon, ob aktiv oder nicht</p>
+
+  <h3>Tab-Titel & URL kopieren</h3>
+  <p>Kopiert den Titel und die Adresse eines beliebigen Tabs, ob aktiv oder nicht</p>
+
+  <h3>Tab-IP kopieren</h3>
+  <p>Kopiert die IP (IPv4 oder IPv6) eines beliebigen Tabs, ob aktiv oder nicht</p>
+ 
+  <h3>URLs kopieren</h3>
+  <p>Kopiert die Adresse(n) „einzelner”, „aller” oder  „rechter/linker” Tabs</p> 
+
+  <h3>Tab-Titel & -URLs kopieren</h3>
+  <p>Kopiert die Titel und Adresse(n) „einzelner”, „aller” oder  „rechter/linker” Tabs</p> 
+
+  <h3>Lesezeichen</h3>
+  <p>Speichert Lesezeichen für Tabs der rechten/linken Seite (<i>Firefox hat bereits ein Lesezeichen Alle Tabs</i>)</p> 
+  
+  <h3>Domain</h3>
+  <ul>
+    <li><b>Behalten</b><br>
+      Alle Tabs dieser Domain behalten (andere schließen)<br>
+    <li><b>Schließen</b><br>
+      Alle Tabs dieser Domain schließen (andere behalten)</li>
+    <li><b>Andere Tabs der selben Domain schließen</b><br>
+      Schließt alle anderen Tabs derselben Domain, aber behält den mit der rechten Maustaste angeklickten Tab (behälte Tabs anderer Domains)</li>
+  </ul> 
+   
+  
+  <h3>Sortieren</h3>
+  <p>Sortiert Tabs (angeheftet und nicht angeheftet) nach URL oder Titel, aufsteigend oder absteigend</p> 
+  
+  <h3>Verschieben</h3>
+  <ul>
+    <li><b>An den Anfang/Ende</b><br>
+      Verschiebt den Tab an den Anfang oder das Ende des Fensters<br>
+    <li><b>Nach links/rechts in einem neuem Fenster</b><br>
+      Verschiebt alle Tabs nach links/rechts in ein neues Fenster</li>
+    <li><b>In ein Privates Fenster</b><br>
+      Verschiebt den Tab in ein neues Privates Fenster</li>
+    <li><b>Nach links/rechts in ein Privates Fenster</b><br>
+      Verschiebt alle Tabs nach links/rechts in ein neues Privates Fenster</li>
+  </ul>  
+  
+  <h3>Neu laden</h3>
+  <ul>
+    <li><b>Alle Tabs neu laden / Tabs der linken/rechten Seite neu laden</b><br>
+      Lädt die gewählten Tabs entsprechend neu</li>   
+    <li><b>Tabs alle 1-5 Minuten neu laden</b><br>
+      Lädt die gewählten Tabs entsprechend der festgelegten Zeit automatisch neu</li>
+    <li><b>Neuladen der Tabs beenden</b><br>
+      Beendet das automatische Neuladen der Tabs</li>
+  </ul> 
+  
+  <h2 id="options">Einstellungen</h2> 
+  <p>Bitte beachten Sie, dass Änderungen erst nach dem Speichern wirksam werden.</p>
+  
+  
+  <h3>Tab-Zähler</h3>
+  <p>Aktivieren oder deaktivieren Sie den Tab-Zähler und/oder ändern Sie die Hintergrundfarbe der Kennzeichnung.<br>
+  <b>Hinweis:</b> Das Deaktivieren des Tab-Zählers deaktiviert auch dessen Prozess und Funktion.</p>
+
+
+  <h3>Benutzerdefiniertes Neuladen</h3>
+  <p>Wählen Sie einen benutzerdefinierten Wert für das Neuladen (momentan zwischen 6 und 30 Minuten).</p>  
+
+  <h3>Datum</h3>
+  <p>Fügen Sie mehrere Datumsanzeigen in den bevorzugten Sprachen im Symbolleistenfenster hinzu.<br>
+    Hinweis: Die ausgewählten Daten werden als Symboltitel in der Symbolleiste gesetzt und sind beim überfahren mit der Maus sichtbar.</p>
+  
+  <h3>Uhrzeit</h3>
+  <p>Fügen Sie mehrere Zeitanzeigen in den bevorzugten Sprachen und Zeitzonen im Symbolleistenfenster hinzu.<br>
+    Hinweis: Nicht alle Städtenamen wurden hinzugefügt (es gibt über 400 Städte). Lassen Sie mich wissen, wenn eine weitere hinzugefügt werden sollte.</p>
+    
+  <h3>Kontextmenü</h3>
+  <p>Aktivieren oder Deaktivieren Sie jedes Element im Kontextmenü und/oder ordnen Sie die Elemente neu an. Durch Verschieben des Hauptmenüs werden die Untermenüs verschoben.</p>
+  <ul>
+    <li>Das Deaktivieren der <b>Tab-IP</b> deaktiviert auch dessen Prozess und Funktion sowie die Anzeige der Länderflagge des Domain-Standorts (v2.10) (IPv4 im Moment). Die Flaggen-Anzeige zeigt auch an, ob die Seite aus dem Cache geladen wurde.</li>
+    <li>Das Verschieben eines übergeordneten Menüs verschiebt auch dessen Untermenüs.</li>
+    <li>Das Deaktivieren eines übergeordneten Menüs deaktiviert auch dessen Untermenüs.</li>
+    <li>Nach dem Deaktivieren von Menüs könnte es besser aussehen, die zugehörigen Trennzeichen zu deaktivieren.</li>
+  </ul>
+  
+  
+  <h3>Standardwerte wiederherstellen</h3>
+  <p>Stellt die Standardeinstellungen wieder her (gut im Fehlerfall). Klicken Sie auf „Speichern”, um die Änderungen zu übernehmen.</p>
+  
+  
+  
+  <h2 id="theme">Theme</h2> 
+  <p><b>Erstellen/Importieren/Exportieren/Anwenden eigener <a href="https://developer.mozilla.org/Add-ons/Themes/Lightweight_themes">Leichtgewichtige Themes</a></b> (Firefox 55+)<br>
+  Leichtgewichtige Themes bestehen aus einer „Kopfzeilen”-Grafikdatei, die den standardmäßigen Firefox-UI-Hintergrund darstellt.</p>
+  
+  <p><b>Erstellen einer Theme-Symbolleisten-Grafik</b><br>
+  Die Symbolleisten-Grafik wird als Hintergrund des oberen Teils des Browserfensters angezeigt, das hinter den Symbolleisten, der Adressleiste, der Suchleiste und der Tableiste befindet. Sie wird in der rechten oberen Ecke des Browserfensters verankert.</p>
+  
+  <p><b>Voraussetzungen der Grafik</b></p>
+  <ul>
+    <li>Die Abmessungen sollten <b>3000px</b> breit 🞪 <b>200px</b> hoch betragen.</li>
+    <li>PNG, JPG, APNG, SVG, GIF (animiertes GIF wird nicht unterstützt) oder Data:URI-Dateiformat</li>
+    <li>Die Grafik darf nicht größer als 300 KB sein.</li>
+  </ul>
+  
+  <p><b>Tipps</b></p>
+  <ul>
+    <li>Dezente Grafiken mit weichen Kontrasten und Farbverläufen funktionieren am besten; hochdetaillierte Grafiken konkurrieren mit der Benutzeroberfläche des Browsers.</li>
+    <li>Firefox kann mehr vom unteren Teil des Bildes zeigen, wenn eine andere Symbolleiste oder ein anderes UI-Element am oberen Rand des Fensters hinzugefügt wird.</li>
+    <li>Die obere rechte Seite der Grafik sollte die wichtigsten Informationen enthalten — wenn ein Benutzer die Breite des Browserfensters vergrößert, zeigt der Browser mehr von der linken Seite der Grafik an.</li>
+    <li>Extrabreite-Bildschirm können bis zu 3440px breit sein — um auf diesen Bildschirmen gut auszusehen, entweder die Größe der Grafik vergrößern oder sicherzustellen, dass die linke Seite des Bildes zu einer Vollfarbe verblasst.</li>
+  </ul>
+
+    <h3>Importieren</h3> 
+    <p>Importieren Sie fertige FoxyTab-Themes (JSON-Dateien), oder importieren Sie eine Grafik in das von Ihnen erstellte Theme.</p>
+    <p>Die importierte Grafik wird in das Format <code>Data:URI</code> konvertiert, das im Abschnitt „Kopfzeile-Grafik” eingetragen wird, wenn dieser leer sein sollte, und wenn nicht, im Abschnitt „Zusätzliche Hintergründe”.</p>  
+    <p>FoxyTab-Themes-Manifeste können in FoxyTab im folgenden JSON-Format importiert werden, wobei jede verfügbare Eigenschaft im MDN-Eintrag <a href="https://developer.mozilla.org/Add-ons/WebExtensions/manifest.json/theme">Topic</a>> verwendet wird.<br>
+    Der Hauptunterschied besteht darin, dass die Grafiken im Data:URI-Format vorliegen müssen. Die maximal zulässige Größe für die JSON ist auf 500kb festgelegt.</p>
+    <p>Die Mindestanforderungen für ein Theme sind „accentcolor” & „textcolor”.</p>
+    
+<pre>{
+  "name": "Name des Theme",
+  "description": "Eine kurze Beschreibung Ihres Themes",
+  "version": "1.0",
+  "homepage_url": "https://.../",
+  "author": "Ihr Name",
+
+  "theme": {
+     "images": {
+       "headerURL": "data:image/jpg;base64 ...",
+       "additional_backgrounds": [ "data:image/png;base64 ..."]
+     },
+     "properties": {
+       "additional_backgrounds_alignment": [ "top" ],
+       "additional_backgrounds_tiling": [ "repeat"  ]
+     },
+     "colors": {
+       "accentcolor": "green",
+       "textcolor": "#000"
+     }
+   }
+} </pre>
+  
+  <h3>Exportieren</h3>
+  <p>Exportiert das Theme als JSON zum Archivieren oder Freigeben.</p>
+  
+  <h3>Bearbeiten</h3>
+  <ul>
+    <li><b>Speichern:</b> Speichert das Theme</li>
+    <li><b>Aktualisieren:</b> Aktualisiert das gespeicherte Theme</li>
+    <li><b>Löschen</b> Löscht das gespeicherte Theme</li>
+    <li><b>Übernehmen:</b> Übernimmt das aktuell angezeigte Theme. Eventuelle Änderungen werden ebenfalls übernommen. Sie können ein Theme übernehmen, ohne es zu speichern.</li>
+    <li><b>Zurücksetzen:</b> Setzt das aktuelle Theme zurück (Firefox 56+)<br>
+      In Firefox 55 können Sie das Thema zurücksetzen, indem Sie im Browser die Seite <code>about:addons</code> aufrufen und dort zu <b>Themen</b> wechseln und ein anderes Thema auswählen.</li>
+  </ul>
+    
+
+  <h2 id="support"><img src="../image/help32.png" alt=""> Support</h2>
+  <p>Bitte besuchen Sie die Mozilla-Community <a href="https://discourse.mozilla.org/t/support-foxytab/" target="_blank">[Hilfe] FoxyTab</a>.</p>
+  
+  <address>Dieser Artikel wurde übersetzt von Wawuschel</address>
+    </article>
+  </body>
+</html>
